@@ -57,7 +57,7 @@
 :root {
   --thm-body-font-family: "Rubik", sans-serif;
   --thm-heading-font-family: "Rajdhani", sans-serif;
-  --thm-primary-color: #2858ad;
+  --thm-primary-color: #4587fc;
   --thm-secondary-color: #6edb1f;
   --thm-body-font-color: #bebebe;
   --thm-heading-font-color: #ffffff;
@@ -65,7 +65,7 @@
   --thm-body-font-size: 16px;
   --thm-body-font-weight: 400;
   --thm-heading-font-weight: 700;
-  --thm-body-background: #ffffff;
+  --thm-body-background: #141416;
   --thm-black-bg: #1a1a1c;
   --thm-white-bg: #ffffff;
   --thm-blue: #0d6efd;
@@ -307,7 +307,7 @@ h6 {
 p {
   font-size: var(--thm-body-font-size);
   font-weight: var(--thm-body-font-weight);
-  line-height: 30px;
+  line-height: 25px;
   color: var(--thm-paragraph-color);
   margin-bottom: 0;
 }
