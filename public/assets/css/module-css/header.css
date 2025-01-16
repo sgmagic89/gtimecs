@@ -344,7 +344,7 @@
   left: 0;
   width: 100%;
   margin: auto;
-  background: var(--thm-white-bg);
+  background: var(--thm-black-bg);
   -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -425,7 +425,7 @@
 .navbar-wrap ul li a {
   position: relative;
   display: block;
-  color: var(--thm-black);
+  color: var(--thm-white);
   font-size: 16px;
   line-height: 20px;
   font-weight: 500;
