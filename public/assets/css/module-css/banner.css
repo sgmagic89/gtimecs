@@ -106,7 +106,11 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(180deg, hsl(223.01deg 98.97% 19.87% / 12%), #01388182);
+  background: linear-gradient(
+    180deg,
+    hsl(223.01deg 98.97% 19.87% / 12%),
+    #01388182
+  );
 }
 
 .banner-one__content {
@@ -153,7 +157,6 @@
   line-height: 1.1em;
   font-weight: 600;
   text-transform: uppercase;
-  \: 100;
 }
 
 .banner-one__content .big-title h2 a.button-style-1 {
