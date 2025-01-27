@@ -1300,6 +1300,16 @@ label {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+  animation: zoomInOut 20s infinite alternate; /* Adjust duration as needed */
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2); /* Adjust zoom level */
+  }
 }
 
 .page-header__bg::before {
@@ -1409,7 +1419,11 @@ label {
   width: 100%;
   height: 100%;
   content: "";
-  background-image: linear-gradient(to top, rgb(0 45 160), rgba(223, 42, 25, 0));
+  background-image: linear-gradient(
+    to top,
+    rgb(0 45 160),
+    rgba(223, 42, 25, 0)
+  );
   transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   transition: all 500ms ease;
   z-index: 1;
