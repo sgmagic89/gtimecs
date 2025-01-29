@@ -1300,7 +1300,7 @@ label {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
-  animation: zoomInOut 15s infinite alternate; /* Adjust duration as needed */
+  animation: zoomInOut 30s infinite alternate; /* Adjust duration as needed */
 }
 
 @keyframes zoomInOut {
@@ -1652,7 +1652,7 @@ label {
   position: relative;
   display: block;
   padding: 38px 0px 34px;
-  background: var(--thm-black);
+  background: var(--thm-white);
   border-top: 1px solid rgba(255, 255, 255, 0.3);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   overflow-x: hidden;
@@ -1683,14 +1683,14 @@ label {
   -ms-flex-align: center;
   align-items: center;
   padding: 0 6px;
-  -webkit-animation: slide-left 10s linear infinite;
-  animation: slide-left 10s linear infinite;
+  -webkit-animation: slide-left 30s linear infinite;
+  animation: slide-left 30s linear infinite;
 }
 
 .feature-one__wrap .feature-one__title-box {
   padding: 0;
-  -webkit-animation: slide-left 10s linear infinite;
-  animation: slide-left 10s linear infinite;
+  -webkit-animation: slide-left 30s linear infinite;
+  animation: slide-left 30s linear infinite;
 }
 
 .feature-one__title-box > * {
@@ -1720,6 +1720,11 @@ label {
   margin-right: 45px;
   margin-left: 2px;
 }
+.feature-one__title img {
+  height: 100px;
+  width: 250px;
+  object-fit: contain;
+}
 
 @keyframes slide-left {
   from {
@@ -1727,7 +1732,7 @@ label {
   }
 
   to {
-    transform: translateX(-100%);
+    transform: translateX(-800%);
   }
 }
 
