@@ -28,7 +28,7 @@
   }
 
   .project-details__text1-list ul {
-    padding: 0px 25px 33px;
+    padding: 0px 25px 0px;
   }
 
   .project-details__text1-list ul li::before {

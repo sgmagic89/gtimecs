@@ -1332,6 +1332,7 @@ label {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  padding: 0px 15px;
 }
 
 .page-header__inner h2 {
@@ -2029,7 +2030,7 @@ label {
 .project-details {
   position: relative;
   display: block;
-  padding: 120px 0px 112px;
+  padding: 30px 30px 112px;
   z-index: 1;
 }
 
@@ -2060,6 +2061,7 @@ label {
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 25px;
+  filter: grayscale(1);
 }
 
 .project-details__text1-img-left .single-img img {
@@ -2083,6 +2085,9 @@ label {
 
 .project-details__text1-img-right .img-box img {
   width: 100%;
+  object-fit: cover;
+  max-height: 483px;
+  filter: grayscale(1);
 }
 
 .project-details__text1-list {
@@ -2104,8 +2109,8 @@ label {
   position: relative;
   display: flex;
   align-items: center;
-  padding-bottom: 34px;
-  margin-top: 36px;
+  padding-bottom: 5px;
+  margin-top: 10px;
 }
 
 .project-details__text1-list ul li:last-child {
@@ -2131,8 +2136,8 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background: #1d1415;
 }
@@ -2165,6 +2170,21 @@ label {
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
+}
+.project-details__text2 ul li span {
+  color: var(--thm-primary-color);
+  font-size: 18px;
+  padding-right: 9px;
+}
+
+.project-details__text2 ul {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.project-details__text2 ul li {
+  display: flex;
+  align-items: center;
 }
 
 .project-details__text2 {
