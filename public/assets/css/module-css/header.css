@@ -459,10 +459,10 @@
 }
 
 .navbar-wrap ul li .sub-menu {
-  position: absolute;
+  position: fixed;
+  height: 100vh;
   left: 0;
   right: 0;
-  top: 100%;
   min-width: 230px;
   border: 0px solid var(--thm-white);
   background: var(--thm-black-bg);
@@ -479,7 +479,7 @@
   box-shadow: 0px 30px 70px 0px rgba(137, 139, 142, 0.07);
   border-radius: 0;
   padding: 0px 0;
-  display: block;
+  display: flex;
   visibility: hidden;
   opacity: 0;
   z-index: 9;
@@ -498,10 +498,35 @@
 }
 
 .navbar-wrap ul li .sub-menu li {
+  height: 50vh;
   margin-left: 0;
   text-align: left;
-  display: block;
+  display: flex;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.navbar-wrap ul li .sub-menu li:first-child {
+  display: block;
+}
+
+.navbar-wrap ul li .sub-menu li:first-child a {
+  font-size: 40px;
+  pointer-events: none;
+}
+
+.navbar-wrap ul li .sub-menu .menu-heading span {
+  font-size: small;
+  padding: 15px 15px 14px 25px;
+}
+
+.navbar-wrap ul li .sub-menu .menu-heading a {
+  padding: 15px 15px 0px 25px;
+}
+
+.navbar-wrap ul li .sub-menu li:not(:first-child) {
+  top: 15px;
 }
 
 .navbar-wrap ul li .sub-menu li:last-child {
