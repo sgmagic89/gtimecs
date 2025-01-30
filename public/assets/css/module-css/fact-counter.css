@@ -4,7 +4,7 @@
 .fact-counter-one {
   position: relative;
   display: block;
-  padding: 120px 0px 90px;
+  padding: 0px 0px 90px;
   z-index: 1;
 }
 
@@ -20,6 +20,7 @@
   background: var(--thm-black-bg);
   padding: 32px 30px 30px;
   border-radius: 5px;
+  min-height: 195px;
 }
 
 .fact-counter-one__single-inner .icon {
@@ -46,7 +47,22 @@
   transition: all 500ms ease;
 }
 
+.fact-counter-one__single-inner .icon i {
+  position: relative;
+  display: inline-block;
+  color: var(--thm-white);
+  font-size: 40px;
+  line-height: 40px;
+  transition-delay: 0.1s;
+  transition: all 500ms ease;
+}
+
 .fact-counter-one__single:hover .fact-counter-one__single-inner .icon span {
+  transform: rotateY(180deg);
+  transition-delay: 0.1s;
+}
+
+.fact-counter-one__single:hover .fact-counter-one__single-inner .icon i {
   transform: rotateY(180deg);
   transition-delay: 0.1s;
 }
@@ -69,7 +85,7 @@
   width: fit-content;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px var(--thm-white);
-  font-size: 48px;
+  font-size: 40px;
   line-height: 50px;
   font-family: var(--thm-heading-font-family);
 }
