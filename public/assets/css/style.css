@@ -1346,7 +1346,7 @@ label {
 
 .page-header__inner .thm-breadcrumb {
   position: relative;
-  display: block;
+  display: none;
 }
 
 .page-header__inner .thm-breadcrumb li {

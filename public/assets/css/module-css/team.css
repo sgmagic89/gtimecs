@@ -44,11 +44,13 @@
   transition: all 400ms linear;
 }
 
-.team-one__single-img img {
+.team-one__single-img a img {
   width: 100%;
   transition: 0.5s ease;
   transform: scale(1.05);
   mix-blend-mode: luminosity;
+  height: 380px;
+  object-fit: cover;
 }
 
 .team-one__single:hover .team-one__single-img img {
