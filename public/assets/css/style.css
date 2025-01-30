@@ -1439,7 +1439,7 @@ label {
   transform: scale(1.05);
 }
 
-.project-one__single:hover .project-one__img img {
+.project-one__single .project-one__img img {
   transform: scale(1);
 }
 
@@ -1449,7 +1449,7 @@ label {
   bottom: 40px;
   right: 40px;
   z-index: 1;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .project-one__title {
@@ -1462,7 +1462,7 @@ label {
   transition: all 900ms ease;
 }
 
-.project-one__single:hover .project-one__title {
+.project-one__single .project-one__title {
   opacity: 1;
   transform: translateY(0%);
   transition-delay: 500ms;
@@ -1482,7 +1482,7 @@ label {
   content: "";
 }
 
-.project-one__single:hover .project-one__title::before {
+.project-one__single .project-one__title::before {
   transform: scale(1, 1);
   transform-origin: left center;
   width: 100%;
@@ -1500,13 +1500,13 @@ label {
   transition: all 900ms ease;
 }
 
-.project-one__single:hover .project-one__sub-title {
+.project-one__single .project-one__sub-title {
   opacity: 1;
   transform: translateY(0%);
   transition-delay: 500ms;
 }
 
-.project-one__single:hover .project-one__img:before {
+.project-one__single .project-one__img:before {
   transform: perspective(400px) rotateX(0deg) scaleY(1);
   transition-delay: 0.1s;
   transition-timing-function: ease-in-out;
@@ -1514,7 +1514,7 @@ label {
   transition-property: all;
 }
 
-.project-one__single:hover .project-one__content {
+.project-one__single .project-one__content {
   opacity: 1;
   visibility: visible;
   transform: translateY(0%);
