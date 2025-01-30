@@ -2067,6 +2067,7 @@ label {
   overflow: hidden;
   margin-bottom: 25px;
   filter: grayscale(1);
+  max-height: 242px;
 }
 
 .project-details__text1-img-left .single-img img {
@@ -2091,7 +2092,7 @@ label {
 .project-details__text1-img-right .img-box img {
   width: 100%;
   object-fit: cover;
-  max-height: 483px;
+  max-height: 500px;
   filter: grayscale(1);
 }
 
@@ -2107,15 +2108,14 @@ label {
   border: 1px solid #3d3d3f;
   border-radius: 5px;
   padding: 0px 35px 0px;
-  padding-bottom: 33px;
+  height: 500px;
 }
 
 .project-details__text1-list ul li {
   position: relative;
   display: flex;
   align-items: center;
-  padding-bottom: 12px;
-  margin-top: 10px;
+  height: 167px;
 }
 
 .project-details__text1-list ul li::before {
