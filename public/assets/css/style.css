@@ -1684,14 +1684,14 @@ label {
   -ms-flex-align: center;
   align-items: center;
   padding: 0 6px;
-  -webkit-animation: slide-left 30s linear infinite;
-  animation: slide-left 30s linear infinite;
+  -webkit-animation: slide-left 10s linear infinite;
+  animation: slide-left 10s linear infinite;
 }
 
 .feature-one__wrap .feature-one__title-box {
   padding: 0;
-  -webkit-animation: slide-left 30s linear infinite;
-  animation: slide-left 30s linear infinite;
+  -webkit-animation: slide-left 10s linear infinite;
+  animation: slide-left 10s linear infinite;
 }
 
 .feature-one__title-box > * {
