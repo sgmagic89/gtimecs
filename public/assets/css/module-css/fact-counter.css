@@ -8,6 +8,11 @@
   z-index: 1;
 }
 
+.fact-counter-one .container {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
 .fact-counter-one__single {
   position: relative;
   display: block;
