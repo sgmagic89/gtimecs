@@ -1207,7 +1207,7 @@
 
   .main-header-one {
     position: relative;
-    background: var(--thm-white-bg);
+    background: var(--thm-black-bg);
   }
 
   /* Main Header Two */
@@ -1262,7 +1262,7 @@
 
   .main-header-one {
     position: relative;
-    background: var(--thm-white-bg);
+    background: var(--thm-black-bg);
   }
 
   /* Main Header Two */
@@ -1317,7 +1317,7 @@
 
   .main-header-one {
     position: relative;
-    background: var(--thm-white-bg);
+    background: var(--thm-black-bg);
   }
 
   /* Main Header Two */
