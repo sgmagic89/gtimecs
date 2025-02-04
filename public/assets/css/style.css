@@ -2123,9 +2123,9 @@ label {
 
 .project-details__text1-list ul li::before {
   position: absolute;
-  left: -35px;
+  left: -20px;
   bottom: 0;
-  right: -35px;
+  right: -20px;
   height: 1px;
   background: #3d3d3f;
   content: "";
