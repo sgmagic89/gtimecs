@@ -1321,7 +1321,7 @@ label {
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(180deg, rgba(20, 20, 22, 0) 0%, #141416 100%);
+  background: linear-gradient(180deg, rgb(28 28 165 / 55%) 0%, #141416 100%);
   z-index: -2;
   content: "";
 }
